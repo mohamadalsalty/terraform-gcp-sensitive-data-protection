@@ -1,0 +1,7 @@
+# Copy this file to terraform.tfvars and fill in your values.
+# terraform.tfvars is gitignored — do not commit it.
+
+project_id  = "your-gcp-project-id"
+region      = "us-central1"
+bucket_name = "your-unique-bucket-name-sdp-lab"
+environment = "lab"

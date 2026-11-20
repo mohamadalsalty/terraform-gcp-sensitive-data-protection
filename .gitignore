@@ -1,0 +1,52 @@
+# Terraform state — never commit
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Terraform working directory and lock file
+.terraform/
+.terraform.lock.hcl
+
+# Terraform plan output
+*.tfplan
+
+# Variable files with real values — use .example files instead
+terraform.tfvars
+*.auto.tfvars
+
+# Terraform crash logs
+crash.log
+crash.*.log
+
+# Service account key files
+credentials/
+*-credentials.json
+*-key.json
+service-account-key*.json
+
+# Override files (local-only overrides)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform CLI config
+.terraformrc
+terraform.rc
+
+# Sample PII files — never commit real or fake sensitive data
+samples/
+
+# Claude Code internal directory
+.claude/
+
+# Untitled / temp diagram files
+Untitled*.drawio
+Untitled*.png
+
+# IDE and OS
+.idea/
+.vscode/
+.DS_Store
+*.swp
+*.swo
